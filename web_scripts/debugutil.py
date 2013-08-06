@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import os, time, sys, socket, sys, traceback
+import os, time, sys, socket, sys, traceback, logging
 try:
     import thread
 except ImportError:
@@ -27,3 +27,7 @@ def zwrite(msg,urgency=DEBUG):
             pass
 def ztraceback():
     zwrite(traceback.format_exc())
+
+class ZlogHandler(logging.Handler):
+    def emit(self, record):
+        zwrite(record)
