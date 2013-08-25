@@ -1,6 +1,5 @@
----------------
 Basic barebones things
----------------
+======================
 
 + The IAP coordinator should be able to login to a web interface to manage/edit/add/etc classes and info.
 
@@ -33,7 +32,6 @@ Basic barebones things
 - A list of cosponsors.
 
 - Publicly visible alerts/notes. This is for things like room changes, time changes, etc.
-...
 
 + Name of SIPB IAP coordinator and link to sipb-iap@mit.edu.
 
@@ -45,9 +43,8 @@ Basic barebones things
 
 + Link to the official MIT IAP index. ("What else happens during IAP?")
 
----------------
 Intermediate things
----------------
+===================
 
 + Multiple options on the client side for listing the classes: alphabetical, by date, what's going on this week, classes that have alerts. (Optionally have some sort of theme associated with certain weeks.)
 
@@ -67,9 +64,8 @@ Intermediate things
 
 + Some way of automatically populating and updating the SIPB Google calendar, or perhaps our own SIPB IAP Google subcalendar.
 
----------------
 Advanced/bonus/extra things
----------------
+===========================
 
 + Just like the automatic reservation cross-checking, also do automatic conflict checking, i.e. keep track of accidentally spacetime collisions between classes. Throw a warning when submitting a class that will cause such a collision. Have a marker in the admin interface for such warnings.
 
@@ -77,7 +73,7 @@ Advanced/bonus/extra things
 
 + Have a place to keep track of course attendance each year to track success of various classes. Have each teacher take a headcount at the beginning of each session.
 
-+For extra bonus points, have a way for the coordinator to track metrics like total number of ~unique students (only count attendance for one session for sequential courses but count for all duplicate sessions), total number of classes, average number of students per class, and so on. Perhaps graphed over years, weeks, whatever.
++ For extra bonus points, have a way for the coordinator to track metrics like total number of ~unique students (only count attendance for one session for sequential courses but count for all duplicate sessions), total number of classes, average number of students per class, and so on. Perhaps graphed over years, weeks, whatever.
 
 + Possibly allow teachers to modify certain aspects of their courses in the database, but this is very iffy.
 
